@@ -1,7 +1,9 @@
 import FieldSet from "./FieldSet";
 import Part1 from "./Part1";
-import "./App.css";
 import Part2 from "./Part2";
+import Part3 from "./Part3";
+
+import "./App.css";
 
 function App() {
   return (
@@ -12,6 +14,9 @@ function App() {
       <FieldSet part={2}>
         <Part2 name="John Doe" />
         <Part2 name="Jane Doe" className="bg-green-400" />
+      </FieldSet>
+      <FieldSet part={3}>
+        <Part3 />
       </FieldSet>
     </div>
   );
